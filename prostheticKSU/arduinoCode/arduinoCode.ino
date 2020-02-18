@@ -1,7 +1,7 @@
 #include <ArduinoBLE.h>
 
-BLEService boaService("");//add uuid
-BLEUnsignedCharCharacteristic boaChar("", BLERead | BLENotify);//add uuid
+BLEService boaService("FD93");//add uuid
+BLEUnsignedCharCharacteristic boaChar("96D8B57A-51E1-11EA-8D77-2E728CE88125", BLERead | BLENotify);//add uuid
 
 int flexiForcePin = A0;
 
