@@ -1,4 +1,5 @@
 #include <ArduinoBLE.h>
+//#include <CurieBLE.h>
 
 BLEService boaService("FD93");//add uuid
 BLEUnsignedCharCharacteristic boaChar("96D8B57A-51E1-11EA-8D77-2E728CE88125", BLERead | BLENotify);//add uuid
@@ -39,4 +40,4 @@ void loop() {
   }
 
 }
-//https://github.com/grboehringer/prostheticArduino.git
+//https://github.com/grboehringer/prostheticKSU.git
