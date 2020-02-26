@@ -20,7 +20,6 @@ void setup() {
 
   BLE.advertise();
   Serial.println("Bluetooth device active, waiting for connections...");
-  stuff
 
 
 }
